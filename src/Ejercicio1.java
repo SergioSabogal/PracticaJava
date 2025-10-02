@@ -13,19 +13,14 @@ public class Ejercicio1 {
 
         for (int i= 0; i<100; i++ ){
             numero = i;
-            switch (numero){
-                case ( (numero % 3 == 0) & (numero % 5 == 0) ):
-                    System.out.println("Fizzbuzz");
-                    break;
-
-                case (numero % 3 == 0):
-                    System.out.println("Fizz");
-                    break;
-                case (numero % 5 == 0):
-                    System.out.println("Buzz");
-                    break;
-                default:
-                    System.out.println(numero);
+            if((numero % 3 == 0) & (numero % 5 == 0)){
+                System.out.println("Fizzbuzz");
+            } else if ((numero % 3 == 0 )) {
+                System.out.println("Fizz");
+            } else if (numero % 5 == 0) {
+                System.out.println("Buzz");
+            }else {
+                System.out.println(numero);
             }
         }
 
