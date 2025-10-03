@@ -8,7 +8,7 @@ public class Ejercicio3 {
      */
 
     public static void main(String[] args) {
-        int[] arrayFibonacci = new int[50];
+        /*int[] arrayFibonacci = new int[50];
         arrayFibonacci[0] = 0;
         arrayFibonacci[1] = 1;
         int aux = 0;
@@ -19,6 +19,19 @@ public class Ejercicio3 {
 
         for(int elemento: arrayFibonacci){
             System.out.print(elemento + " - ");
+        }*/
+        int a =  0;
+        int b =  1;
+
+        for(int i = 0; i < 50 ; i++){
+            int fibonacci = a + b ;
+            if ((i <  50 -1) && i > 1  ){
+                System.out.print("-");
+            }
+            System.out.print(fibonacci );
+            a = b;
+            b = fibonacci;
         }
+
     }
 }
