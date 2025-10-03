@@ -8,13 +8,17 @@ public class Ejercicio3 {
      */
 
     public static void main(String[] args) {
-        int suma = 0;
-        int anterior = 0;
-        int init = 1;
-        for(int i = 0; i < 50 ; i++){
+        int[] arrayFibonacci = new int[50];
+        arrayFibonacci[0] = 0;
+        arrayFibonacci[1] = 1;
+        int aux = 0;
+        for(int i = 2; i < arrayFibonacci.length; i++){
+            aux = arrayFibonacci[i-2] +  arrayFibonacci[i-1] ;
+            arrayFibonacci[i] = aux;
+        }
 
-
-            System.out.println(suma);
+        for(int elemento: arrayFibonacci){
+            System.out.print(elemento + " - ");
         }
     }
 }
