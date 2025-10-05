@@ -1,3 +1,5 @@
+package fibonacci;
+
 public class Ejercicio3 {
     /*
      * Escribe un programa que imprima los 50 primeros números de la sucesión

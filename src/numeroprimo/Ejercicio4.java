@@ -1,3 +1,5 @@
+package numeroprimo;
+
 public class Ejercicio4 {
     /*
      * Escribe un programa que se encargue de comprobar si un número es o no primo.
