@@ -19,12 +19,16 @@ public class Ejercicio5 {
         listFiguras.add(new Cuadrado(12));
         listFiguras.add(new Triangulo(5, 7));
 
-        listFiguras.forEach();
+        listFiguras.forEach(f -> System.out.println(f.calcularArea()));
+
+        for (Poligono f :listFiguras){
+            calculaAreaPoligono(f);
+        }
 
     }
 
 
     public static void calculaAreaPoligono(Poligono p){
-        System.out.println("El area de la fiura" + p +" es: " +p.calcularArea());
+        System.out.println("El area de la figura  es: " +p.calcularArea());
     }
 }
