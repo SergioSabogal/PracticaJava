@@ -29,6 +29,6 @@ public class Ejercicio5 {
 
 
     public static void calculaAreaPoligono(Poligono p){
-        System.out.println("El area de la figura  es: " +p.calcularArea());
+        System.out.println("El area de la figura" + p +" es: " +p.calcularArea());
     }
 }

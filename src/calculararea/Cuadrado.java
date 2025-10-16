@@ -11,4 +11,9 @@ public class Cuadrado implements Poligono{
         float area = lado*4;
         return area;
     }
+
+    @Override
+    public String toString() {
+        return " Cuadrado ";
+    }
 }

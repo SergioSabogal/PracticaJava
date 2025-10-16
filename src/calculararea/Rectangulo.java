@@ -15,4 +15,9 @@ public class Rectangulo implements Poligono {
         float area = (base*altura);
         return area;
     }
+
+    @Override
+    public String toString() {
+        return " Rectangulo ";
+    }
 }
