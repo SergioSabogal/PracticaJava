@@ -1,2 +1,4 @@
-package repositorio.producto;public class Limpieza {
+package repositorio.producto;
+
+public class Limpieza {
 }

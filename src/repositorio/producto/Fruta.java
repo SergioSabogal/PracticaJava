@@ -1,2 +1,4 @@
-package repositorio.producto;public class Fruta {
+package repositorio.producto;
+
+public class Fruta {
 }
