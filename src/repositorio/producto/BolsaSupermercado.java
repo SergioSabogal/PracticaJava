@@ -6,7 +6,6 @@ import java.util.List;
 public class BolsaSupermercado<T> {
     private List<T> listProductos;
     final static int MAX_LIST = 5;
-
     public BolsaSupermercado(){
         this.listProductos = new ArrayList<>();
     }
@@ -21,7 +20,8 @@ public class BolsaSupermercado<T> {
         if (listProductos.size() < 5){
             this.listProductos.add(t);
         }else {
-            System.out.println("La bolsa ya esta llena ");
+            System.out.println("La bolsa "+ t.getClass().getSimpleName() +" ya esta llena ");
+            System.out.println();
         }
 
     }
